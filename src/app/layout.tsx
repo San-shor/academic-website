@@ -67,7 +67,7 @@ export default function RootLayout({
                 <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-blue-700 to-indigo-600 text-sm font-bold text-white shadow-md">
                   EU
                 </span>
-                <span className="text-lg font-bold tracking-tight text-slate-900">
+                <span className="hidden text-lg font-bold tracking-tight text-slate-900 sm:inline">
                   Evergreen<span className="text-blue-700">University</span>
                 </span>
               </Link>

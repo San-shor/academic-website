@@ -171,8 +171,8 @@ export default function AdmissionsPage() {
         </section>
 
         {/* ── CTA ────────────────────────────── */}
-        <section className="rounded-2xl bg-gradient-to-r from-blue-700 via-indigo-600 to-purple-700 animate-gradient-x p-12 text-center text-white">
-          <h2 className="text-3xl font-extrabold">
+        <section className="rounded-2xl bg-gradient-to-r from-blue-700 via-indigo-600 to-purple-700 animate-gradient-x p-6 text-center text-white sm:p-8 md:p-12">
+          <h2 className="text-2xl font-extrabold sm:text-3xl">
             Your journey starts here
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-blue-100/80">

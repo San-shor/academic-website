@@ -80,12 +80,12 @@ export default function Home() {
                   key={item.title}
                   className={`animate-fade-in-up stagger-${i + 1} card-hover group rounded-2xl border border-slate-200/60 bg-white p-6 shadow-sm`}
                 >
-                  <div className="flex items-start justify-between gap-4">
+                  <div className="flex flex-col-reverse gap-2 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
                     <div>
                       <span className="inline-block rounded-full bg-blue-50 px-3 py-1 text-xs font-bold uppercase tracking-wide text-blue-700">
                         {item.tag}
                       </span>
-                      <h3 className="mt-3 text-lg font-semibold text-slate-900 transition group-hover:text-blue-700">
+                      <h3 className="mt-3 text-base font-semibold text-slate-900 transition group-hover:text-blue-700 sm:text-lg">
                         {item.title}
                       </h3>
                       <p className="mt-2 text-sm leading-relaxed text-slate-500">
@@ -154,9 +154,9 @@ export default function Home() {
       </section>
 
       {/* ── CTA Banner ────────────────────────── */}
-      <section className="bg-gradient-to-r from-blue-700 via-indigo-600 to-purple-700 animate-gradient-x px-6 py-20">
+      <section className="bg-gradient-to-r from-blue-700 via-indigo-600 to-purple-700 animate-gradient-x px-6 py-12 md:py-20">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl font-extrabold text-white md:text-4xl">
+          <h2 className="text-2xl font-extrabold text-white sm:text-3xl md:text-4xl">
             Ready to start your academic journey?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-blue-100/80">

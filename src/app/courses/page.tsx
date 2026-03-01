@@ -58,7 +58,7 @@ export default function CoursesPage() {
         </div>
 
         {/* CTA */}
-        <div className="mt-16 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50 p-10 text-center">
+        <div className="mt-16 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50 p-6 text-center sm:p-8 md:p-10">
           <h3 className="text-2xl font-bold text-slate-900">
             Can&apos;t find what you&apos;re looking for?
           </h3>
