@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Evergreen University — Academic Website
 
-## Getting Started
+A modern, fully responsive academic website built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+## 🌐 Live Demo
+
+**[academic-website-blue.vercel.app](https://academic-website-blue.vercel.app)**
+
+## 📸 Pages
+
+- **Home** — Hero section, stats, announcements, research spotlight, CTA banner
+- **Courses** — Program listings with colored accent cards
+- **Faculty** — Faculty profiles with avatar badges and research focus
+- **Admissions** — Timeline steps, important dates, scholarships & financial aid
+- **Research** — Focus areas, research stats, lab tags
+- **Contact** — Contact info cards, inquiry form with subject dropdown
+
+## ⚡ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| [Next.js](https://nextjs.org/) | React framework (App Router) |
+| [TypeScript](https://www.typescriptlang.org/) | Type safety |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first styling |
+
+## 🚀 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/academic-website.git
+cd academic-website
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── layout.tsx          # Root layout (header, footer, mobile nav)
+│   ├── page.tsx            # Homepage
+│   ├── courses/page.tsx    # Courses & Programs
+│   ├── faculty/page.tsx    # Faculty & Staff
+│   ├── admissions/page.tsx # Admissions
+│   ├── research/page.tsx   # Research & Discovery
+│   ├── contact/page.tsx    # Contact Us
+│   └── globals.css         # Global styles & animations
+├── components/
+│   └── MobileNav.tsx       # Mobile hamburger menu (client component)
+└── lib/
+    └── site-data.ts        # Shared content, types, and data
+```
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- Fully responsive (mobile, tablet, desktop)
+- Glassmorphism sticky header
+- Animated hamburger mobile menu with slide-in drawer
+- Smooth fade-in and stagger animations
+- Gradient accents and hover lift effects on cards
+- Accessible navigation with semantic HTML
+- Clean, maintainable data layer (`site-data.ts`)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
